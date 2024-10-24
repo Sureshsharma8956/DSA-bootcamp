@@ -1,5 +1,5 @@
 class Graph:
-    def _init_(self, vertices):
+    def __init__(self, vertices):
         self.V = vertices  # Number of vertices in the graph
         self.graph = []  # List to store all edges
 
